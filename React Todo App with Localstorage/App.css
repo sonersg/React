@@ -1,0 +1,46 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kumbh+Sans:wght@300;400&family=Pacifico&family=Rubik+Gemstones&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.App {
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+h1 {
+    font-family: 'Dancing Script';
+}
+.List {
+    width: 60%;
+    height: 70vh;
+    padding: 10px;
+    margin: 10px;
+    border: dotted orangered;
+    font-family: 'Rubik Gemstones';
+    overflow: hidden;
+    overflow-y: scroll;
+    
+    box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.52);
+    -moz-box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.52);
+}
+.List > .task {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid orangered;
+    margin-bottom: 2px;
+    }
