@@ -1,0 +1,94 @@
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(43, 27, 13); */
+    background-image: url("https://images.pexels.com/photos/2093323/pexels-photo-2093323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 98vh;
+}
+.Die{
+    background-color: rgb(126, 193, 219,0.5);
+    border-radius: 10px;
+    display: grid;
+    width: 80%;
+    height: 200px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.item{
+    /* background-color: aliceblue; */
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.roll-btn{
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    border: skyblue 2px solid;
+    border-radius: 10px;
+    background-color: rgb(126, 193, 219,0.5);
+}
+.roll-btn:active{
+    padding: 10px 30px;
+    color: white;
+    background-color: skyblue;
+}
+.text{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.confetti{
+    width: 99vw;
+    height: 95vh;
+}
+
+@media screen and (max-width: 700px){
+    .App{
+        background-image: url("https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    .container{
+        max-width: 330px;
+    }
+    .Die{
+        height: 130px;
+    }
+    .item{
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .roll-btn{
+        margin: 10px;
+        font-size: 17px;
+    }
+}
