@@ -1,0 +1,9 @@
+.dark {
+  color: aliceblue;
+  background-color: black;
+}
+
+.app {
+  min-height: 100vh;
+  text-align: center;
+}
