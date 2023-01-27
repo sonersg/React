@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.dark-nav {
+    background-color: rgb(30, 58, 58);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+
+/* undark-mode */
+.light-nav { 
+    background-color: whitesmoke;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    color: black;
+}
+
+nav h3 {
+    margin-right: auto;
+    margin-left: 10px;
+    color: rgb(102, 228, 245);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-h4-dark {
+    font-weight: 600;
+    color: aliceblue;
+    margin-left: 30px;
+}
+.nav-h4-light {
+    font-weight: 600;
+    color: black;
+}
+
+.main-dark {
+    background-color: rgb(65, 87, 87);
+    height: calc(100vh - 80px - 30px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+
+    color: rgb(120, 221, 228);
+
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position: top 50% right -300px;
+
+    overflow-y: auto;
+}
+.main-light {
+    background-color: white;
+    height: calc(100vh - 80px - 30px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+
+    color: rgb(120, 221, 228);
+
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    background-position: top 50% right -300px;
+
+    overflow-y: scroll;
+}
+
+.main-h1-dark {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+.main-h1-light {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: rgb(102, 228, 245);
+}
+
+.main-ul-li-dark{
+    line-height: 30px;
+    padding-block: 10px;
+    max-width: 400px;
+    color: aliceblue;
+}
+.main-ul-li-light{
+    line-height: 30px;
+    padding-block: 10px;
+    max-width: 400px;
+    color: black;
+}
+
+.main ul li::marker{
+    font-size: 1.4rem;
+    color: rgb(102, 228, 245);
+}
+
+.footer-dark {
+    background-color: rgb(65, 87, 87);
+    text-align: center;
+    height: 30px;
+}
+.footer-light {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+@media (max-width: 600px){
+    .main-dark {
+        background-position: top 80% right -100px;
+    }
+    .main-light {
+        background-position: top 80% right -100px;
+    }
+}
