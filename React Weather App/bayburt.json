@@ -1,0 +1,32 @@
+{
+  "tarih": "27 Ocak Cuma 2023-Ben ekledim.",
+  "coord": { "lon": 40.2278, "lat": 40.2589 },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "parçalı bulutlu",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": -4.58,
+    "feels_like": -7.83,
+    "temp_min": -4.58,
+    "temp_max": -4.58,
+    "pressure": 1025,
+    "humidity": 64,
+    "sea_level": 1025,
+    "grnd_level": 842
+  },
+  "visibility": 10000,
+  "wind": { "speed": 2.03, "deg": 126, "gust": 1.83 },
+  "clouds": { "all": 70 },
+  "dt": 1674841915,
+  "sys": { "country": "TR", "sunrise": 1674793975, "sunset": 1674829818 },
+  "timezone": 10800,
+  "id": 750938,
+  "name": "Bayburt",
+  "cod": 200
+}

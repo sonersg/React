@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+
+.app {
+  min-height: 100vh;
+  background-image: url("https://picsum.photos/720/1480");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 2em 0.4em;
+}
+
+.app h1 {
+  font-size: 5rem;
+  width: 15rem;
+  margin: auto;
+  background-color: rgba(9, 9, 9, 0.5);
+  border: solid black 2px;
+  border-radius: 0.4em;
+}
+.app h2 {
+  font-family: MV Boli;
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1rem;
+  background-color: rgba(9, 9, 9, 0.3);
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 0.7em 0em;
+  padding: 0.7em 1em;
+  border-radius: 1em;
+  border-bottom: solid 3px white;
+  color: white;
+}
+input:focus {
+  background-color: rgba(9, 9, 9, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    background-image: url("https://picsum.photos/1366/768");
+  }
+}
